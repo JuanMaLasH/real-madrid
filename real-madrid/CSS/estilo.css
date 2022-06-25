@@ -282,6 +282,9 @@ nav{
     text-align: center;
 }
 
+.logoPrincipal{
+    width: 100%;
+}
 .fotoIndex{
     margin: auto;
     width: 100%;
@@ -339,6 +342,22 @@ nav{
     width: 100%;
 }
 
+.fotoEquipo{
+    transition: all 1s ease-in-out;
+}
+.fotoEquipo:hover{
+    transform: translate(10px, 5px);
+}
+.fotoTitulos{
+    transition: all 1s ease-in-out;
+}
+.fotoTitulos:hover{
+    transform: translate(10px, 5px);
+}
+.fotoTienda:hover{
+    transform: scale(1.03, 1.00)
+}
+
 @media screen and (max-width: 576px){
     .grillaEquipo{
         grid-template-columns: repeat(1,auto);
@@ -389,6 +408,12 @@ nav{
         "titulo11"
         "titulo12"
         "titulo13";
+    }
+    .fotoEquipo{
+        width: 50%;
+    }
+    .fotoTitulos{
+        width: 50%;
     }
 }
 
