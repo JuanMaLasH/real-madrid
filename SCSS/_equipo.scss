@@ -21,103 +21,108 @@
     grid-area: tituloEquipo;
     text-align: center;
 }
-.jugador1{
-    grid-area: jugador1;
+.jugador{
+    margin: 10px;
+    padding: 10px;
     text-align: center;
-}
-.jugador2{
-    grid-area: jugador2;
-    text-align: center;
-}
-.jugador3{
-    grid-area: jugador3;
-    text-align: center;
-}
-.jugador4{
-    grid-area: jugador4;
-    text-align: center;
-}
-.jugador5{
-    grid-area: jugador5;
-    text-align: center;
-}
-.jugador6{
-    grid-area: jugador6;
-    text-align: center;
-}
-.jugador7{
-    grid-area: jugador7;
-    text-align: center;
-}
-.jugador8{
-    grid-area: jugador8;
-    text-align: center;
-}
-.jugador9{
-    grid-area: jugador9;
-    text-align: center;;
-}
-.jugador10{
-    grid-area: jugador10;
-    text-align: center;
-}
-.jugador11{
-    grid-area: jugador11;
-    text-align: center;
-}
-.jugador12{
-    grid-area: jugador12;
-    text-align: center;
-}
-.jugador13{
-    grid-area: jugador13;
-    text-align: center;
-}
-.jugador14{
-    grid-area: jugador14;
-    text-align: center;
-}
-.jugador15{
-    grid-area: jugador15;
-    text-align: center;
-}
-.jugador16{
-    grid-area: jugador16;
-    text-align: center;
-}
-.jugador17{
-    grid-area: jugador17;
-    text-align: center;
-}
-.jugador18{
-    grid-area: jugador18;
-    text-align: center;
-}
-.jugador19{
-    grid-area: jugador19;
-    text-align: center;
-}
-.jugador20{
-    grid-area: jugador20;
-    text-align: center;
-}
-.jugador21{
-    grid-area: jugador21;
-    text-align: center;
-}
-.jugador22{
-    grid-area: jugador22;
-    text-align: center;
-}
-.jugador23{
-    grid-area: jugador23;
-    text-align: center;
-}
-.jugador24{
-    grid-area: jugador24;
-    text-align: center;
-}
-.jugador25{
-    grid-area: jugador25;
-    text-align: center;
+    .jugador1{
+        @extend .jugador;
+        grid-area: jugador1;
+    }
+    .jugador2{
+        @extend .jugador;
+        grid-area: jugador2;
+    }
+    .jugador3{
+        @extend .jugador;
+        grid-area: jugador3;
+    }
+    .jugador4{
+        @extend .jugador;
+        grid-area: jugador4;
+    }
+    .jugador5{
+        @extend .jugador;
+        grid-area: jugador5;
+    }
+    .jugador6{
+        @extend .jugador;
+        grid-area: jugador6;
+    }
+    .jugador7{
+        @extend .jugador;
+        grid-area: jugador7;
+    }
+    .jugador8{
+        @extend .jugador;
+        grid-area: jugador8;
+    }
+    .jugador9{
+        @extend .jugador;
+        grid-area: jugador9;
+    }
+    .jugador10{
+        @extend .jugador;
+        grid-area: jugador10;
+    }
+    .jugador11{
+        @extend .jugador;
+        grid-area: jugador11;
+    }
+    .jugador12{
+        @extend .jugador;
+        grid-area: jugador12;
+    }
+    .jugador13{
+        @extend .jugador;
+        grid-area: jugador13;
+    }
+    .jugador14{
+        @extend .jugador;
+        grid-area: jugador14;
+    }
+    .jugador15{
+        @extend .jugador;
+        grid-area: jugador15;
+    }
+    .jugador16{
+        @extend .jugador;
+        grid-area: jugador16;
+    }
+    .jugador17{
+        @extend .jugador;
+        grid-area: jugador17;
+    }
+    .jugador18{
+        @extend .jugador;
+        grid-area: jugador18;
+    }
+    .jugador19{
+        @extend .jugador;
+        grid-area: jugador19;
+    }
+    .jugador20{
+        @extend .jugador;
+        grid-area: jugador20;
+    }
+    .jugador21{
+        @extend .jugador;
+        grid-area: jugador21;
+    }
+    .jugador22{
+        @extend .jugador;
+        grid-area: jugador22;
+    }
+    .jugador23{
+        @extend .jugador;
+        grid-area: jugador23;
+    }
+    .jugador24{
+        @extend .jugador;
+        grid-area: jugador24;
+    }
+    .jugador25{
+        @extend .jugador;
+        grid-area: jugador25;
+    }
 }
