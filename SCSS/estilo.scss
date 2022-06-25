@@ -8,17 +8,16 @@ $colorNegro: black;
 @import "titulos";
 @import "fotos";
 @import "animaciones";
+@import "mediaQueries";
 
 body{
     text-align: justify;
-    @mixin text ($letra){
         h1{
-            @include text ($letraPrincipal);
+            font-family: $letraPrincipal;
             text-align: center;
         }
-        
         h2, h3, p, form, a{
-            @include text ($letraSecundaria)
+            font-family: $letraSecundaria;
         }
     }
     .main{
@@ -34,4 +33,3 @@ body{
     nav{
         padding: 1rem;
     }
-}
