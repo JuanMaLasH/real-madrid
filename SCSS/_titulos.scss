@@ -1,0 +1,71 @@
+.grillaTitulos{
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns:repeat(3, auto);
+    grid-template-rows:repeat(6, auto);
+    grid-template-areas:
+    "tituloTitulos tituloTitulos tituloTitulos"
+    "titulo1 titulo2 titulo3"
+    "titulo4 titulo5 titulo6"
+    "titulo7 titulo8 titulo9"
+    "titulo10 titulo11 titulo12"
+    "titulo13 titulo13 titulo13";
+    gap: 20px;
+}
+.tituloTitulos{
+    grid-area: tituloTitulos;
+    text-align: center;
+}
+.titulo1{
+    grid-area: titulo1;
+    text-align: center;
+}
+.titulo2{
+    grid-area: titulo2;
+    text-align: center;
+}
+.titulo3{
+    grid-area: titulo3;
+    text-align: center;
+}
+.titulo4{
+    grid-area: titulo4;
+    text-align: center;
+}
+.titulo5{
+    grid-area: titulo5;
+    text-align: center;
+}
+.titulo6{
+    grid-area: titulo6;
+    text-align: center;
+}
+.titulo7{
+    grid-area: titulo7;
+    text-align: center;
+}
+.titulo8{
+    grid-area: titulo8;
+    text-align: center;
+}
+.titulo9{
+    grid-area: titulo9;
+    text-align: center;
+}
+.titulo10{
+    grid-area: titulo10;
+    text-align: center;
+}
+.titulo11{
+    grid-area: titulo11;
+    text-align: center;
+}
+.titulo12{
+    grid-area: titulo12;
+    text-align: center;
+}
+.titulo13{
+    grid-area: titulo13;
+    text-align: center;
+}

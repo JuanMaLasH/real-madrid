@@ -1,0 +1,39 @@
+$letraPrincipal: 'Courgette', cursive;
+$letraSecundaria: 'Roboto', sans-serif;
+$colorBlanco: white;
+$colorNegro: black;
+@import "menuHeader";
+@import "menuFooter";
+@import "mediaQueries";
+@import "equipo";
+@import "titulos";
+@import "fotos";
+@import "animaciones";
+
+body{
+    text-align: justify;
+    @mixin text ($letra){
+        h1{
+            @include text ($letraPrincipal);
+            text-align: center;
+        }
+        
+        h2, h3, p, form, a{
+            @include text ($letraSecundaria)
+            text-align: justify;
+        }
+    }
+    .main{
+        background: #f6f8f9; /* Old browsers */
+        background: -moz-linear-gradient(top, #f6f8f9 0%, #e5ebee 50%, #d7dee3 100%, #f5f7f9 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #f6f8f9 0%,#e5ebee 50%,#d7dee3 100%,#f5f7f9 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #f6f8f9 0%,#e5ebee 50%,#d7dee3 100%,#f5f7f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=0 ); /* IE6-9 */   
+    }
+    .mainBlanco{
+    background-color: $colorBlanco;
+    }
+    nav{
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,15 @@
+.fotoEquipo{
+    transition: all 1s ease-in-out;
+}
+.fotoEquipo:hover{
+    transform: translate(10px, 5px);
+}
+.fotoTitulos{
+    transition: all 1s ease-in-out;
+}
+.fotoTitulos:hover{
+    transform: translate(10px, 5px);
+}
+.fotoTienda:hover{
+    transform: scale(1.03, 1.00)
+}
