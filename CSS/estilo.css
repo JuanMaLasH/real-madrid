@@ -257,7 +257,7 @@ body {
   body h1 {
     font-family: "Courgette", cursive;
     text-align: center; }
-  body h2, body h3, body p, body form, body a {
+  body h2, body h3, body p, body form, body a, body li {
     font-family: "Roboto", sans-serif; }
 
 .main {
