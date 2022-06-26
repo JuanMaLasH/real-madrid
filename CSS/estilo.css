@@ -28,7 +28,7 @@
 
 .menuFooter {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row;
   justify-content: center;
   margin: 1rem;
   padding: 1rem; }
@@ -203,9 +203,6 @@
   margin: auto; }
 
 .comentarios {
-  width: 100%; }
-
-.redSocial {
   width: 100%; }
 
 .fotoEquipo {
